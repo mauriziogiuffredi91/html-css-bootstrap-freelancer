@@ -46,10 +46,30 @@ p{
     font-size: 15px;
     padding-top: 5px;
     
+    
+}
+    
+  
+
+.header_main .box_nav{
+    width: 100%;
+    text-align: right;
+}
+
+.header_main .box_nav li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+    cursor: pointer;
+}
+    
+
+.header_main .box_nav li:last-child{
+    margin-right: 0;
 }
     
     
-
+        
     
     
     
@@ -61,7 +81,7 @@ p{
     width: 43px;
     height: 32px;
     border-radius: 10%;
-    text-align: right;
+    margin: 0 auto;
     
 
 }
@@ -129,8 +149,8 @@ footer .top_footer{
 }
 
 .top_footer .box_contain{
-    width: 65%;
-    height: 315px;
+    width: 80%;
+    height: 115px;
     background-color: grey;
     margin: 40px auto;
     border-radius: 10%;
