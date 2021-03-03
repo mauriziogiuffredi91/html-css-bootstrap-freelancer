@@ -3,6 +3,7 @@
 h1,
 h2,
 h3,
+h4,
 p{
     margin: 0;
     font-weight: bold;
@@ -16,7 +17,7 @@ p{
 
 .box_contain{
     width: 100%;
-    height: 418px;
+    height: 355px;
     background-color: grey;
     margin: 40px auto;
     border-radius: 10%;
@@ -26,24 +27,33 @@ p{
 
 .header_main{
     background-color: #2c3e50;
-    
-    
+        
 }
 
 
 
-.header_container{
+.header_main .header_container{
     padding: 20px 0;
 }
 .header_main h3{
     color: white;
     font-size: 20px;
     padding-top: 5px;
+}
+
+.header_main h4{
+    color: white;
+    font-size: 15px;
+    padding-top: 5px;
+    
+}
+    
+    
+
     
     
     
 
-}
 
 .header_main .box_ham{
     
@@ -68,7 +78,7 @@ p{
 /* section portfolio */
 .section_portfolio{
     background-color: white;
-    min-height: 2335px;
+    
 }
 
 
@@ -81,7 +91,7 @@ p{
 /* section about */
 .section_about{
     background-color: #1abc9c;
-    min-height: 700px;
+    
 
 }
 
@@ -94,7 +104,7 @@ p{
 /* section contact */
 .section_contact{
     background-color: white;
-    min-height: 595px;
+    
 }
 
 .section_contact .title h2{
@@ -105,7 +115,7 @@ p{
 
 .section_contact .box_contain{
     width: 70%;
-    height: 418px;
+    height: 355px;
     background-color: grey;
     margin: 40px auto;
     border-radius: 10%;
@@ -115,11 +125,27 @@ p{
 /* top footer */
 footer .top_footer{
     background-color: #3a546d;
-    min-height: 450px;
+    
+}
+
+.top_footer .box_contain{
+    width: 65%;
+    height: 315px;
+    background-color: grey;
+    margin: 40px auto;
+    border-radius: 10%;
 }
 
 /* bottom footer */
 footer .bottom_footer{
     background-color: #2c3e50;
-    min-height: 108px;
+    
+}
+
+.bottom_footer .box_contain{
+    width: 65%;
+    height: 40px;
+    background-color: grey;
+    margin: 40px auto;
+    border-radius: 10%;
 }
