@@ -5,8 +5,12 @@ h2,
 h3,
 p{
     font-weight: bold;
-    font-size: 20px;
     text-transform: uppercase;
+}
+
+.title{
+    text-align: center;
+    
 }
 
 /* header */
@@ -17,9 +21,10 @@ p{
     
 }
 
-.header_main h2{
+.header_main h3{
     color: white;
     padding-top: 5%;
+    font-size: 20px;
     
     
 
@@ -58,9 +63,11 @@ p{
     min-height: 2335px;
 }
 
-.section_portfolio .title{
-    text-align: center;
 
+
+.section_portfolio .title h2{
+    font-size: 30px;
+    margin-top: 60px;
 }
 
 /* section about */
@@ -70,10 +77,22 @@ p{
 
 }
 
+.section_about .title h2{
+    font-size: 30px;
+    margin-top: 60px;
+    color: white;
+}
+
 /* section contact */
 .section_contact{
     background-color: white;
     min-height: 595px;
+}
+
+.section_contact .title h2{
+    font-size: 30px;
+    margin-top: 60px;
+    color: black;
 }
 
 /* top footer */
