@@ -17,7 +17,7 @@ p{
     
 }
 
-.header_main h1{
+.header_main h2{
     color: white;
     padding-top: 5%;
     
@@ -45,16 +45,22 @@ p{
     
 }
 
-.section_jumbotron .box_jumbotron{
+.box_contain{
     width: 443px;
     height: 418px;
     background-color: grey;
     margin: 40px auto;
+    border-radius: 10%;
 }
 /* section portfolio */
 .section_portfolio{
     background-color: white;
     min-height: 2335px;
+}
+
+.section_portfolio .title{
+    text-align: center;
+
 }
 
 /* section about */
