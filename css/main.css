@@ -22,7 +22,36 @@ p{
 
 .box_contain{
     margin: 40px auto;
+    text-align: center;
     
+}
+
+
+.box_contain .white_star{
+    color: white;
+    font-size: 35px;
+    margin: 20px 0;
+}
+.box_contain .bar_right{
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+    display: inline-block;
+    width: 140px;
+    background-color: white;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.box_contain .bar_left{
+    position: relative;
+    bottom: 5px;
+    right: 10px;
+    display: inline-block;
+    width: 140px;
+    background-color: white;
+    height: 10px;
+    border-radius: 10px;
 }
 
 .image_center{
@@ -79,6 +108,16 @@ p{
     background-color: #1abc9c;
     
     
+}
+.section_jumbotron .box_contain h1{
+    color: white;
+    margin: 20px 0;
+}
+
+.section_jumbotron .box_contain h4{
+    display: inline-block;
+    color: white;
+    margin: 0 16px;
 }
 
 
