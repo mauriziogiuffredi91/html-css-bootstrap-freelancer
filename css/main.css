@@ -345,12 +345,31 @@ footer .top_footer{
 }
 
 .top_footer .box_contain{
-    width: 80%;
-    height: 115px;
-    background-color: grey;
-    margin: 40px auto;
-    border-radius: 10%;
+    margin: 10px auto;
+    color: white;
+    width: 45%;
+    font-size: 11px;
 }
+
+.top_footer h4{
+    font-size: 12px;
+}
+ 
+.top_footer i{
+    display: inline-block;
+    border: 1px solid white;
+    border-radius:50%;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    padding-top: 8px;
+    margin: 5px;
+}
+
+    
+
+    
+    
 
 
 /* bottom footer */
@@ -362,9 +381,9 @@ footer .bottom_footer{
 .bottom_footer .box_contain{
     width: 65%;
     height: 40px;
-    background-color: grey;
-    margin: 40px auto;
-    border-radius: 10%;
+    
+    
+    
 }
 
 
