@@ -345,9 +345,9 @@ footer .top_footer{
 }
 
 .top_footer .box_contain{
-    margin: 10px auto;
+    margin: 20px auto;
     color: white;
-    width: 45%;
+    width: 65%;
     font-size: 11px;
 }
 
@@ -363,7 +363,8 @@ footer .top_footer{
     width: 30px;
     height: 30px;
     padding-top: 8px;
-    margin: 5px;
+    margin-top: 4px;
+    margin-right: 2px;
 }
 
     
@@ -375,9 +376,14 @@ footer .bottom_footer{
     
 
 .bottom_footer .box_contain{
-    width: 65%;
-    height: 40px;
+    color: white;
+    font-size: 10px;
+    margin: 20px auto;
+    font-weight: bold;
 }
+
+
+
     
     
 
