@@ -29,7 +29,33 @@ h4{
     
 }
 
+/* utilities button */
+.box_contain_button{
+    margin: 20px auto;
+    text-align: center;
+    
+    
+    
+}
 
+.box_contain_button .change_c{
+    background-color: #1abc9c;
+    color: white;
+    font-size: 19px;
+    border: 1px solid white;
+    width: 145px;
+}
+
+.box_contain_button .change_c i{
+    margin-right: 10px;
+}
+
+
+    
+
+
+
+/* utilities immagine */
 
 
 .image_center{
@@ -37,6 +63,7 @@ h4{
     margin: 0 auto;
 }
 
+/* utilities ul */
 li{
     display: inline-block;
     list-style: none;
@@ -213,6 +240,8 @@ li{
 
 }
 
+
+/* media query section about */
 @media screen and (min-width:600px){
 
     .content_about{
