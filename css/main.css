@@ -184,7 +184,11 @@ li{
     background-color: #1abc9c;
 }
     
-
+.content_about{
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
 
 .section_about .title h2{
     font-size: 30px;
@@ -207,6 +211,57 @@ li{
     font-weight: bold;
     font-size: 15px;
 
+}
+
+@media screen and (min-width:600px){
+
+    .content_about{
+        max-width: 600px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    
+    .section_about .box_contain{
+        width: 90%;
+        text-align: left;
+        line-height: 2.5rem;
+        color: #fbfdfd;
+        margin: 10px auto;
+    
+    }
+    
+    
+    .section_about .box_contain p{
+        margin: 0;
+        font-weight: bold;
+        font-size: 15px;
+    
+    }
+}
+@media screen and (min-width:992px){
+
+    .content_about{
+        max-width: 800px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+
+    .section_about .box_contain{
+        width: 90%;
+        text-align: left;
+        line-height: 2.5rem;
+        color: #fbfdfd;
+        margin: 10px auto;
+    
+    }
+    
+    
+    .section_about .box_contain p{
+        margin: 0;
+        font-weight: bold;
+        font-size: 15px;
+    
+    }
 }
 
 
