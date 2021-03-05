@@ -49,7 +49,7 @@ li{
     position: relative;
     max-width: 300px;
     text-align: center;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 .box_divisore .white_star{
@@ -119,9 +119,11 @@ li{
 
 /* section jumbotron */
 .section_jumbotron{
-    background-color: #1abc9c;
-    
-    
+    background-color: #1abc9c;    
+}
+
+.section_jumbotron .box_contain:last-child{
+    margin-top: 10px;
 }
 .section_jumbotron .box_contain > h1{
     color: white;
