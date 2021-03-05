@@ -31,37 +31,47 @@ p{
 }
 
 
-.box_contain .white_star{
-    color: white;
-    font-size: 35px;
-    margin: 20px 0;
-}
-.box_contain .bar_right{
-    position: relative;
-    bottom: 5px;
-    left: 10px;
-    display: inline-block;
-    width: 140px;
-    background-color: white;
-    height: 10px;
-    border-radius: 10px;
-}
 
-.box_contain .bar_left{
-    position: relative;
-    bottom: 5px;
-    right: 10px;
-    display: inline-block;
-    width: 140px;
-    background-color: white;
-    height: 10px;
-    border-radius: 10px;
-}
 
 .image_center{
     max-width: 38%;
     margin: 0 auto;
 }
+
+li{
+    display: inline-block;
+    list-style: none;
+}
+/* utilities star divisore */
+
+
+.box_divisore{
+    position: relative;
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.box_divisore .white_star{
+    color: white;
+    font-size: 35px;
+    width: 20%;
+    vertical-align: middle;
+}
+
+
+
+.box_divisore::before,
+.box_divisore::after{
+    content: '';
+    display: inline-block;
+    width: 30%;
+    height: 5px;
+    background-color:white;
+    border-radius: 10px;
+}   
+
+
     
     
 
@@ -113,7 +123,7 @@ p{
     
     
 }
-.section_jumbotron .box_contain h1{
+.section_jumbotron .box_contain > h1{
     color: white;
     margin: 20px 0;
 }
