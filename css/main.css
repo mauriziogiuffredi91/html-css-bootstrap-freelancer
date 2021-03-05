@@ -12,8 +12,7 @@ html{
 h1,
 h2,
 h3,
-h4,
-p{
+h4{
     margin: 0;
     font-weight: bold;
     text-transform: uppercase;
@@ -183,15 +182,34 @@ li{
 /* section about */
 .section_about{
     background-color: #1abc9c;
+}
     
 
-}
 
 .section_about .title h2{
     font-size: 30px;
     margin-top: 60px;
     color: white;
 }
+
+.section_about .box_contain{
+    width: 90%;
+    text-align: left;
+    line-height: 2.5rem;
+    color: #fbfdfd;
+    margin: 10px auto;
+
+}
+
+
+.section_about .box_contain p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+
 
 /* section contact */
 .section_contact{
