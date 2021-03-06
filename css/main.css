@@ -316,7 +316,7 @@ li{
 .section_contact input{
     color: black;
     height: 55px;
-    font-size: 18px;
+    font-size: 25px;
     border: none;
     border-bottom: 1px solid lightgrey;
     transition: none;
@@ -330,13 +330,40 @@ li{
     box-shadow: none;
 }
 
-.message_form{
-    margin: 20px 0;
-    font-size: 18px;
-    padding: 0;
+.section_contact textarea{
+    font-size: 25px;
+    color: black;
+    padding: 25px 0;
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    transition: none;
+}
+    
+    
+
+.form-control:focus{
+    box-shadow: none;
+    border-bottom: 1px solid lightgrey;
+    outline: none;
+}
+    
+.section_contact .box_contain_button{
+    text-align: left;
+    margin-bottom: 76px;
 }
 
-    
+.section_contact .box_contain_button .change_c{
+    background-color: #1abc9c;
+    color: white;
+    font-size: 19px;
+    border: 1px solid white;
+    width: 110px;
+    height: 65px;
+}
+
+
 
 /* top footer */
 footer .top_footer{
