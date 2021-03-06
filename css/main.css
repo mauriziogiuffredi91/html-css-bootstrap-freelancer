@@ -206,6 +206,26 @@ li{
     margin-top: 60px;
 }
 
+/* hover */
+
+.section_portfolio .box_img{
+    position: relative;
+}
+.portfolio-layover{
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: rgba(26, 188, 156, 0.9);
+    height: 100%;
+    width: 100%;
+    border-radius: 2%;
+}
+
+.portfolio-layover .cross{
+    text-align:center;
+    color: white;
+}
+
 /* section about */
 .section_about{
     background-color: #1abc9c;
